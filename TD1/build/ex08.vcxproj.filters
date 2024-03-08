@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\leode\Desktop\Dossier cours\IMAC\Prog_C++\S2\TD1\src\fraction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\leode\Desktop\Dossier cours\IMAC\Prog_C++\S2\TD1\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\leode\Desktop\Dossier cours\IMAC\Prog_C++\S2\TD1\src\utils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\leode\Desktop\Dossier cours\IMAC\Prog_C++\S2\TD1\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{5A0851EA-8820-3EB6-8139-3E2B13033AA1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

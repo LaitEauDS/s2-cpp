@@ -1,0 +1,10 @@
+^C:\USERS\LEODE\DESKTOP\DOSSIER COURS\IMAC\PROG_C++\S2\TD1\BUILD\CMAKEFILES\ED5E307BA786953A5EDE80CEC80819C7\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/leode/Desktop/Dossier cours/IMAC/Prog_C++/S2/TD1" "-BC:/Users/leode/Desktop/Dossier cours/IMAC/Prog_C++/S2/TD1/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/leode/Desktop/Dossier cours/IMAC/Prog_C++/S2/TD1/build/TD1.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
