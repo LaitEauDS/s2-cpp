@@ -17,8 +17,3 @@ Fraction simplify(Fraction fraction){
     result.numerator = fraction.numerator / pgcd;
     return result;
 }
-
-int main(){
-    std::cout << gcd(22,8);
-    return 0;
-}

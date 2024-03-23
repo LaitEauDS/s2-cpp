@@ -14,13 +14,5 @@ int main(){
     std::cout << "4. Veuillez entre le numérateur de la deuxième fraction" << std::endl;
     std::cin >> f2.denominator;
 
-    f1.display();
-    f2.display();
-
-    add(f1, f2);
-    sub(f1, f2);
-    mul(f1, f2);
-    div(f1, f2);
-
     return 0;
 }
