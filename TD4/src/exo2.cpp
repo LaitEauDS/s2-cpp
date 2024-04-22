@@ -34,17 +34,17 @@ std::vector<std::string> split_string(std::string const& str) {
 }
 
 
-// int main(){
+int main(){
 
-//     std::string text;
-//     std::cout << "Entrez une phrase : ";
-//     std::cin >> text;
+    std::string text;
+    std::cout << "Entrez une phrase : ";
+    std::cin >> text;
     
-//     std::cout << "Taille du premier mot : " << sizeFirstWord(text) << std::endl;
+    std::cout << "Taille du premier mot : " << sizeFirstWord(text) << std::endl;
     
-//     for (std::string const element : split_string(text)) {
-//         std::cout <<  element << std::endl;
-//     }
+    for (std::string const element : split_string(text)) {
+        std::cout <<  element << std::endl;
+    }
 
-//     return 0;
-// }
+    return 0;
+}
